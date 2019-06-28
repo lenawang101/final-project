@@ -25,9 +25,20 @@
 }
 .mission{
   font-size: 20px;
-  margin-top: 700px;
-  margin-left: -230px;
+  margin-top: 850px;
+  margin-left: -480px;
+  
+  
 }
+
+.mis{
+  position:absolute;
+  top:30%;
+  left:11%;
+  font-size:40px;
+  font-family:'Gothic A1', sans-serif;
+}
+
 .header {
   font-style: bold;
   border-style:solid;
@@ -265,9 +276,20 @@ h3{
 /*   mission{ */
 /*   font-size: 20px; */
   margin-top: -400px;
-    margin-left: 600px;
- max-width:300px;
+  margin-left: 600px;
+  max-width:300px;
+  display:flex;
+  justify-content:space-around;
   
+  
+}
+
+.ribbon{
+  height:200px;
+  width:180px;
+  position:absolute;
+  top:200px;
+  left:1000px;
 }
 
 }
@@ -278,7 +300,8 @@ h3{
 }
 .move{
   margin-top: -200px;
-    margin-left: 300px;
+  margin-left: 300px;
+  margin-right: 15px;
 }
 .q{
   
@@ -307,77 +330,109 @@ h2{
 .pics{
   display: flex;
   align-items: flex-end;
-  justify-content: flex-end;
-  flex-direction: column;
+  justify-content:space-between;
+  flex-direction:row;
   margin-top: 180px;
-  border: 10px solid black;
+  
+  width: 1100px;
+  position:absolute;
+  right:20px;
+  margin-bottom:200px;
+  padding-bottom:100px;
 }
 
 
+.stats{
+  font-family:'Gothic A1', sans-serif;
+  position:absolute;
+  right:540px;
+  top:200px;
+  font-size:40px;
+}
 
 .underreported{
-  height: 350px;
+  height: 250px;
+  width:200px;
   margin-top: 180px;
   display:flex;
-  justify-content: flex-start;
   border: 5px solid black;
+  
+  
 }
 .thebigoone{
-  height: 350px;
+  height: 250px;
+  width:180px;
   margin-top: 30px ;  
   display:flex;
-  justify-content: flex-start;
+  
   border: 5px solid black;
 }
 .three{
-  height: 300px;
+  
+  width:250px;
+  height: 250px;
   margin-top: 180px;  
   display:flex;
-  justify-content: flex-start;
+  
   border: 5px solid black;
 }
 .four{
-  position: relative;
-  height: 300px;
+  
+
   margin-top: 30px;  
-  margin-left: 0px;
+ 
   display:flex;
-  justify-content: flex-start;
+  
   border: 5px solid black;
-}
-
-.underreported{
-  width: 300px;
-    height: 290px
-      margin-left:600px
-}
-.three{
-  width: 300px;
-    height: 290px
-      margin-left:600px
-}
-
-.thebigoone{
-  width: 250px;
-    height: 240px
-      margin-left:600px
-}
-.four{
-  width: 350px;
-    height: 240px;
-      margin-left: 300px
+  width: 330px;
+  height: 250px;
+ 
 }
 
 
+  
+
+
+
+
+.stories{
+  position:absolute;
+  width:70%;
+  top:200px;
+  right:4%;
+  display:flex;
+  flex-direction:column;
+  align-content:center;
+  padding-bottom:500px;
+}
 #hey{
   background:url('https://images.pexels.com/photos/1201540/pexels-photo-1201540.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-attachment:fixed;
 }
 .helplinks{
   color: white;
-    font-size: 30px;
+  font-size: 30px;
 }
-.fax{
-  display:flex;
-  align-content: : flex-end
+iframe{
+  position:absolute;
+  bottom:70px;
+  
+}
+h5{
+  font-size:25px;
+  margin-bottom:0px;
+}
+.entry{
+  background-color:white;
+  padding:15px;
+}
+
+#forumpage{
+  background-color:#e2dfe6; 
+  font-family:'Gothic A1', sans-serif;
+}
+
+.forumlink{
+  font-size:20px;
+  margin-top:30px;
 }
